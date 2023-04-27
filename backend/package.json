@@ -1,12 +1,13 @@
 {
-  "name": "backend for GoFood",
+  "name": "foodie",
   "version": "1.0.0",
-  "description": "This is backend for GoFood App",
+  "description": "This is backend for foodie App",
   "main": "index.js",
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "npm i"
+    "build" : "npm i",
+    "dev" : "nodemon index.js"
   },
   "keywords": [],
   "author": "",
